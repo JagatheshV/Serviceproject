@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script type="text/javascript">
+    $(window).load(function () {
+      $("#formSaludo").modal("show");
+    });
+  </script>
+  <body>
+    <div
+      class="modal fade in"
+      id="formSaludo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+      style="display: block"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5>
+              <strong
+                >給我們一個小小的贊吧～我們會帶給你更多的趣事，新聞，最新動態！您的一個贊給我們帶來無限的力量！</strong
+              >
+            </h5>
+            <img class="img-responsive center-block" src="funnylike.jpg" />
+          </div>
+          <div class="modal-body">
+            <div
+              class="fb-like"
+              data-href="https://www.facebook.com/cloudsblacks"
+              data-width="200"
+              data-layout="button_count"
+              data-action="like"
+              data-show-faces="true"
+              data-share="false"
+            ></div>
+          </div>
+          <div class="modal-footer">
+            <a
+              class="btn btn-link"
+              data-dismiss="modal"
+              style="
+                font-size: 15px;
+                color: #808080;
+                cursor: pointer;
+                text-decoration: none;
+              "
+              >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Modal Window -->
